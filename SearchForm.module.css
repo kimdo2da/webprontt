@@ -1,0 +1,44 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px; /* ⬅ 여기만 100px 정도로 바꿔줘 */
+  text-align: center;
+}
+
+.searchBox {
+  margin-bottom: 20px;
+}
+
+.input {
+  padding: 10px;
+  width: 300px;
+}
+
+.searchButton {
+  margin-left: 10px;
+  padding: 10px 16px;
+  font-family: 'Gowun Dodum', sans-serif;
+  cursor: pointer;
+}
+
+.loadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.loadMoreButton {
+  padding: 10px 20px;
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
